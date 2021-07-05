@@ -73,8 +73,8 @@ const topImg = document.querySelector('.cta img')
 topImg.src = 'img/header-img.png'
 
 const topContentH = document.querySelectorAll('.top-content h4')
-topContentH[0].textContent = siteContent['main-content"]["features-h4']
-topContentH[1].textContent = siteContent['main-content"]["about-h4']
+topContentH[0].textContent = siteContent['main-content']['features-h4']
+topContentH[1].textContent = siteContent['main-content']['about-h4']
 
 const topContentP = document.querySelectorAll('.top-content p')
 topContentP[0].textContent = siteContent['main-content']['features-content']
@@ -103,3 +103,4 @@ contentP[2].textContent = siteContent['contact']['email']
 
 const footerP = document.querySelector('footer p')
 footerP.textContent = siteContent['footer']['copyright']
+
