@@ -104,3 +104,28 @@ contentP[2].textContent = siteContent['contact']['email']
 const footerP = document.querySelector('footer p')
 footerP.textContent = siteContent['footer']['copyright']
 
+const blogLink = document.createElement('a')
+blogLink.textContent = 'Blog'
+blogLink.href = '#'
+document.querySelector('nav').appendChild(blogLink)
+
+const storeLink = document.createElement('a')
+storeLink.textContent = 'Store'
+storeLink.href = '#'
+document.querySelector('nav').prepend(storeLink)
+
+storeLink.style.color = 'green'
+
+blogLink.style.color = 'green'
+
+productLink.style.color = 'green'
+
+servicesLink.style.color = 'green'
+
+featureLink.style.color = 'green'
+
+visionLink.style.color = 'green'
+
+contactLink.style.color = 'green'
+
+aboutLink.style.color = 'green'
